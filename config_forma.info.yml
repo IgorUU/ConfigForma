@@ -1,0 +1,5 @@
+name: Config Forma
+description: Ovo je neki moj pokušaj pravljenja konfig forme
+type: module
+core_version_requirement: ^8 || ^9
+package: Custom

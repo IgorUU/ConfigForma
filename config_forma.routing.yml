@@ -1,0 +1,17 @@
+config_forma.forma:
+  path: '/forma'
+  defaults:
+    _form: '\Drupal\config_forma\Form\KonfigForm'
+    _title: 'Konfig Forma'
+  requirements:
+    _permission: 'administer site configuration'
+
+config_forma.pokusaj:
+  path: '/pokusaj'
+  defaults:
+    _controller: '\Drupal\config_forma\Controller\KonfigController::pokusaj'
+    _title: 'Pokušaj'
+  requirements:
+    _permission: 'access content'
+
+
